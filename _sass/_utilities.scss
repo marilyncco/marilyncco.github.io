@@ -24,6 +24,7 @@
 .uppercase { text-transform: uppercase; }
 
 .lh-condensed { line-height: 1.25; }
+.heavy { font-weight: 300; }
 
 .list-reset {
   list-style: none;
@@ -31,7 +32,7 @@
 }
 
 /* Border utilities */
-.border-bottom-thick { border-bottom: 0px solid; border-color: currentColor; }
+.border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
 .border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
 .border-top-thick { border-top: 2px solid; border-color: currentColor; }
 .border-top-thin { border-top: 1px solid; border-color: currentColor; }
@@ -40,6 +41,11 @@
 
 /* Theme color utilities */
 .header-background { display: table; background-color: $color-background; padding-top: 10px; padding-bottom: 80px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+
+.about-background { display: table; background-color: #f6d9d5; padding-top: 40px; padding-bottom: 0px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.about-title { color: $black; }
+.about-text { color: $black; }
+
 .header-border { border-color: $color-background; }
 .header-title { color: $color-title; }
 .header-text { color: $color-foreground; }
@@ -49,7 +55,7 @@
 .text-accent { color: $color-text-accent; } // used for date in post list and home link
 
 /* Layout utilities */
-.container { max-width: $container-width; }
+.container { max-width: $container-width; max-height: 100%; padding-bottom: 40px;}
 
 .col-1 { width: (1 / 12 * 100%); }
 .col-2 { width: (2 / 12 * 100%); }
