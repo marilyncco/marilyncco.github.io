@@ -31,7 +31,7 @@
 }
 
 /* Border utilities */
-.border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
+.border-bottom-thick { border-bottom: 0px solid; border-color: currentColor; }
 .border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
 .border-top-thick { border-top: 2px solid; border-color: currentColor; }
 .border-top-thin { border-top: 1px solid; border-color: currentColor; }
@@ -39,8 +39,8 @@
 
 
 /* Theme color utilities */
-.header-background { background-color: $color-background; }
-.header-border { border-color: $color-foreground; }
+.header-background { display: table; background-color: $color-background; padding: 20px 0; height: auto; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.header-border { border-color: $color-background; }
 .header-title { color: $color-title; }
 .header-text { color: $color-foreground; }
 .header-social { fill: $color-foreground; }

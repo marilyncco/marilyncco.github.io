@@ -28,26 +28,17 @@
             <div class="col-4 sm-width-full left border-top-thin">
               <div class="table">
                 <div class="inline-block mt-3 mr-1">
-                  {% include dot-accent.html %}
-                </div>
-                <div class="inline-block mt-3 mr-1">
-                  {% include dot-accent.html %}
-                </div>
-                <div class="inline-block mt-3">
                   {% include github.html %}
                 </div>
-              </div>
-              <!-- Set site description in config.yml -->
-              <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
-            </div>
-
-            <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
                 <div class="inline-block mt-3 mr-1">
-                  {% include dot.html %}
+                  {% include medium.html %}
                 </div>
                 <div class="inline-block mt-3">
                   {% include {{ site.social_link | default: "twitter" }}.html %}
                 </div>
+              </div>
+              <!-- Set site description in config.yml -->
+              <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
             </div>
           </div>
 
