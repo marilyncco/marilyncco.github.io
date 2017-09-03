@@ -3,7 +3,7 @@
 // Color variables
 $magenta: #f9e9dc;
 $black: #313131;
-$white: #fff;
+$white: #f5f4f6;
 
 // Config
 $color-background: $magenta !default;
@@ -12,9 +12,9 @@ $color-foreground: $black !default;
 $color-title: $black !default;
 $color-body-text: $black !default;
 $color-text-accent: $black !default;
-$color-code: $magenta !default;
+$color-code: $black !default;
 $color-nav-link: $black !default;
-$color-primary-link: $magenta !default;
+$color-primary-link: darken($magenta,50%) !default;
 
 // Import sass partials (used in all themes)
 @import

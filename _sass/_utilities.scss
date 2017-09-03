@@ -39,7 +39,7 @@
 
 
 /* Theme color utilities */
-.header-background { display: table; background-color: $color-background; padding: 20px 0; height: auto; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.header-background { display: table; background-color: $color-background; padding: 5px 0; height: auto; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
 .header-border { border-color: $color-background; }
 .header-title { color: $color-title; }
 .header-text { color: $color-foreground; }
