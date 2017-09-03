@@ -17,7 +17,6 @@ title: Marilyn Chace
 description: Anthropologist, developer, and graphic designer.
 baseurl: "/landing" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: jekyll # the GitHub repo name for your project
 github_username: marilyncco
 
 # Optional social link, you can choose from the following options:
