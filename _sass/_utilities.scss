@@ -41,7 +41,7 @@
 
 /* Theme color utilities */
 .header-background { 
-  display: fixed; 
+  display: table; 
   background-color: $color-background; 
   background-size: 100%;
   min-height: 100%;
@@ -54,7 +54,7 @@
   -o-background-size: cover; }
 
 .about-background { 
-  display: fixed; 
+  display: table; 
   background-color: #dcf9e9; 
   background-size: 100%;
   min-height: 100%;
@@ -69,7 +69,7 @@
 .about-text { color: $black; }
 
 .post-background { 
-  display: fixed; 
+  display: table; 
   background-color: #e9dcf9; 
   background-size: 100%;
   min-height: 100%;
