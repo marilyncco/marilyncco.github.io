@@ -50,30 +50,32 @@
     </div>
 
     <div class="border-top-thin about-background">
-    <article class="about-text container px-3 mx-auto mt-4 mb-2" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="col-9 sm-width-full mb-3 border-bottom-thick">
-      <h1 id="about" class="about-title h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">About</h1>
-      </div>
+      <article class="about-text container px-3 mx-auto mt-3 mb-4" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="col-9 sm-width-full mb-3 border-bottom-thick">
+          <h1 id="about" class="about-title h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">About</h1>
+        </div>
 
-      <div class="prose" itemprop="articleBody">
-        {% capture my_include %}{% include about.md %}{% endcapture %}
-        {{ my_include | markdownify }}
-      </div>
+        <div class="prose col-10" itemprop="articleBody">
+        <!-- <div class="h4 lh-condensed font-smoothing mt-2 py-1"> -->
+          {% capture my_include %}{% include about.md %}{% endcapture %}
+          {{ my_include | markdownify }}
+        </div>
 
-    </article>
+      </article>
     </div>
 
 
     <div class="border-top-thin post-background">
-    <div class="post-text container px-3 mx-auto mt-4 mb-2">
-    <div class="col-9 post-text sm-width-full mb-3 border-bottom-thick">
-      <h1 id="about" class="post-title h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Posts</h1>
+      <div class="post-text container px-3 mx-auto mt-4 mb-2">
+        <div class="col-9 post-text sm-width-full mb-3 border-bottom-thick">
+          <h1 id="writing" class="post-title h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Posts</h1>
+        </div>
+        {% for post in site.posts %}
+          {% include post_block.html %}
+        {% endfor %}
       </div>
-      {% for post in site.posts %}
-        {% include post_block.html %}
-      {% endfor %}
     </div>
-    </div>
+
     {% include footer.html %}
 
   </body>
