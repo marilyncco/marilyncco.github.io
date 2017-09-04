@@ -28,14 +28,14 @@
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:creator" content="@{{ site.twitter }}">
   <!-- Twitter summary card with large image must be at least 280x150px -->
-  <meta name="twitter:image:src" content="{{ site.url }}/{{ page.image }}">
+  <meta name="twitter:image:src" content="{{ site.url }}/{{site.baseurl}}/{{ page.image }}">
 
     <!-- Open Graph data -->
   <meta property="fb:pages" content="1733704513619256" />
   <meta property="og:title" content="{% if page.title %} {{page.title}} | {% endif %}{{site.title}}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
-  <meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+  <meta property="og:url" content="{{ site.url }}/{{site.baseurl}}/{{ page.url }}" />
+  <meta property="og:image" content="{{ site.url }}/{{site.baseurl}}/{{ page.image }}" />
   <meta property="og:description" content="{{ page.description }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
 
