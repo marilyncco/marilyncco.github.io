@@ -40,13 +40,46 @@
 
 
 /* Theme color utilities */
-.header-background { display: table; background-color: $color-background; padding-top: 10px; padding-bottom: 80px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.header-background { 
+  display: fixed; 
+  background-color: $color-background; 
+  background-size: 100%;
+  min-height: 100%;
+  height: auto;
+  padding: 0 0 5%; 
+  width: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  background-size: cover; 
+  -o-background-size: cover; }
 
-.about-background { display: table; background-color: #dcf9e9; padding-top: 40px; padding-bottom: 0px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.about-background { 
+  display: fixed; 
+  background-color: #dcf9e9; 
+  background-size: 100%;
+  min-height: 100%;
+  height: auto;
+  padding: 0 0 5%; 
+  width: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  background-size: cover; 
+  -o-background-size: cover; }
 .about-title { color: $black; }
 .about-text { color: $black; }
 
-.post-background { display: table; background-color: #e9dcf9; padding-top: 40px; padding-bottom: 0px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.post-background { 
+  display: fixed; 
+  background-color: #e9dcf9; 
+  background-size: 100%;
+  min-height: 100%;
+  height: auto;
+  padding: 0 0 5%; 
+  width: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  background-size: cover; 
+  -o-background-size: cover; }
 .post-title { color: $black; }
 .post-text { color: $black; }
 
