@@ -1,4 +1,4 @@
-South Georgia raised. Atlanta made.
+I'm an anthropologist, developer, designer, and, occasionally, 
 
 I graduated with a B.A. in Applied Linguistics at [Georgia State University](http://gsu.edu), where I'm now a graduate student in Anthropology.
 
