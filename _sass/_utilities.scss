@@ -42,9 +42,13 @@
 /* Theme color utilities */
 .header-background { display: table; background-color: $color-background; padding-top: 10px; padding-bottom: 80px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
 
-.about-background { display: table; background-color: #f6d9d5; padding-top: 40px; padding-bottom: 0px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.about-background { display: table; background-color: #dcf9e9; padding-top: 40px; padding-bottom: 0px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
 .about-title { color: $black; }
 .about-text { color: $black; }
+
+.post-background { display: table; background-color: #e9dcf9; padding-top: 40px; padding-bottom: 0px; height: 100%; width: 100%; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+.post-title { color: $black; }
+.post-text { color: $black; }
 
 .header-border { border-color: $color-background; }
 .header-title { color: $color-title; }
