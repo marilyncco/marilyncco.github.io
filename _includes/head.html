@@ -23,10 +23,10 @@
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@{{site.twitter_username}}">
-  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:site" content="@{{ site.twitter }}">
+  <meta name="twitter:title" content="{% if page.title %} {{page.title}} | {% endif %}{{site.title}}">
   <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:creator" content="@{{site.twitter_username}}">
+  <meta name="twitter:creator" content="@{{ site.twitter }}">
   <!-- Twitter summary card with large image must be at least 280x150px -->
   <meta name="twitter:image:src" content="{{ site.url }}/{{ page.image }}">
 
