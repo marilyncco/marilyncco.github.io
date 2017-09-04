@@ -7,7 +7,7 @@
 
     <div>
 
-      <header class="header-background">
+      <header id="top" class="header-background">
 
         <div class="clearfix border-bottom-thick header-border">
           <ul class="list-reset right py-1 header-text font-smoothing">
@@ -46,6 +46,7 @@
           </div>
 
         </div>
+        <!-- <a href="#about"><i class="colored_arrow arrow down"></i></a> -->
       </header>
     </div>
 
@@ -61,7 +62,10 @@
           {{ my_include | markdownify }}
         </div>
 
+        
+
       </article>
+      <!-- <a href="#writing"><i class="colored_arrow arrow down"></i></a> -->
     </div>
 
 
@@ -76,8 +80,11 @@
       </div>
     </div>
 
-    {% include footer.html %}
+    <!-- <a href="#top"><i class="colored_arrow arrow up"></i></a> -->
+
+    
 
   </body>
+  {% include footer.html %}
 
 </html>
