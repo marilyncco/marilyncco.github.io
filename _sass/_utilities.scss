@@ -40,6 +40,12 @@
 
 
 /* Theme color utilities */
+
+.footer-background { 
+  color: $white;
+  background-color: $black;
+  }
+
 .header-background { 
   display: table; 
   background-color: $color-background; 
