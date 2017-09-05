@@ -21,6 +21,7 @@ code {
   p, ol, ul {
     font-size: $prose-font-size;
     margin-bottom: 1em;
+    margin-top: 1em;
     width: 100%;
 
     @media (min-width: $breakpoint-lg) {
