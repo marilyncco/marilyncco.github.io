@@ -32,11 +32,14 @@
 }
 
 /* Border utilities */
-.border-bottom-thick { margin: 0 0 0 0; padding: 0 0 0; border-bottom: 2px solid; border-color: currentColor; }
+.border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
 .border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
 .border-top-thick { border-top: 2px solid; border-color: currentColor; }
 .border-top-thin { border-top: 1px solid; border-color: currentColor; }
 .border-0 { border: 0; }
+
+.border-right-thick { border-right: 0px solid; border-color: currentColor; }
+.border-left-thick { border-left: 0px solid; border-color: currentColor; }
 
 
 /* Theme color utilities */
