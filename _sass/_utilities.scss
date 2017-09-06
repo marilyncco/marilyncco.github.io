@@ -32,10 +32,11 @@
 }
 
 .fixed-nav {
+  display: none;
   visibility: hidden;
 
   @media (min-width: 1025px) {
-    visibility: visible;
+    visibility: hidden;
     position: fixed;
     display: block;
     left: 50%;
