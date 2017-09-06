@@ -32,10 +32,15 @@
 }
 
 .fixed-nav {
-  position: fixed;
-  display: block;
-  left: 50%;
-  transform: translate(-50%, 0);
+  visibility: hidden;
+
+  @media (min-width: $breakpoint-lg) {
+    visibility: visible;
+    position: fixed;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 0);  
+  }
 }
 
 /* Border utilities */
