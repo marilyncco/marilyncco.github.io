@@ -17,14 +17,14 @@ title: Marilyn Chace
 description: Atlanta-based anthropologist, developer, and designer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marilync.co" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: marilyncco
+github_username: stmrln
 favicon: "/img/favicon/favicon.ico"
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
-twitter: marilyncco
-social_username: marilyncco
+twitter: stmrln
+social_username: stmrln
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
