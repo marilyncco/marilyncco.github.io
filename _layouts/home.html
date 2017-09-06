@@ -7,18 +7,13 @@
 
     <div>
 
-      <header id="top" class="border-top-thick border-bottom-thick border-left-thick border-right-thick header-background">
+      <header id="top" class="border-top-thick border-bottom-thick header-background">
 
-        <div class="clearfix border-bottom-thick header-border">
-          <ul class="list-reset right py-1 header-text font-smoothing">
-            <li class="inline-block">
-              <a class="align-middle link-primary header-link mr-2" href="#about">About</a>
-            </li>
-            <li class="inline-block">
-              <a class="align-middle link-primary header-link mr-2" href="#writing">Writing</a>
-            </li>
-          </ul>
-        </div>
+          <div id="nav" class="fixed-nav py-1 header-text font-smoothing border-bottom-thick">
+              <a class="link-primary header-link ml-1 mr-1" href="#top">Top</a>
+              <a class="link-primary header-link mr-1" href="#about">About</a>
+              <a class="link-primary header-link" href="#writing">Writing</a>
+          </div>
 
         <div class="container mx-auto px-2 mb-2 clearfix header-text">
           <h1 class="h0 inline-block col-9 sm-width-full py-4 font-smoothing mt-3 header-title">{{ site.title }}</h1>
@@ -45,7 +40,7 @@
       </header>
     </div>
 
-    <div id="about" class="border-top-thick border-bottom-thick border-left-thick border-right-thick right about-background">
+    <div id="about" class="border-top-thick border-bottom-thick right about-background">
       <article class="about-text right container px-3 mx-auto mt-3 mb-4" itemscope itemtype="http://schema.org/BlogPosting">
         <div style="text-align: right;" class="col-9 mr-1 sm-width-full mb-3 border-bottom-thick">
           <h1 class="about-title h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">About</h1>
@@ -65,7 +60,7 @@
       <!-- <a href="#writing"><i class="colored_arrow arrow down"></i></a> -->
 
 
-    <div id="writing" class="border-top-thick border-bottom-thick border-left-thick border-right-thick post-background">
+    <div id="writing" class="border-top-thick border-bottom-thick post-background">
       <div class="post-text container px-3 mx-auto mt-4 mb-2">
         <div class="col-9 post-text sm-width-full mb-3 border-bottom-thick">
           <h1 class="post-title h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Writing</h1>

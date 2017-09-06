@@ -31,6 +31,13 @@
   padding-left: 0;
 }
 
+.fixed-nav {
+  position: fixed;
+  display: block;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 /* Border utilities */
 .border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
 .border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
@@ -38,8 +45,8 @@
 .border-top-thin { border-top: 1px solid; border-color: currentColor; }
 .border-0 { border: 0; }
 
-.border-right-thick { border-right: 0px solid; border-color: currentColor; }
-.border-left-thick { border-left: 0px solid; border-color: currentColor; }
+.border-right-thick { border-right: 2px solid; border-color: currentColor; }
+.border-left-thick { border-left: 2px solid; border-color: currentColor; }
 
 .medium {
   text-align: center;
@@ -64,6 +71,8 @@
   padding: 0 0 0%;
   margin-top: 5;
   margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -115,6 +124,7 @@
 .header-text { color: $color-foreground; }
 .header-social { fill: $color-foreground; }
 .header-social-accent { fill: $color-dot-accent; }
+.header-link { color: $color-title;}
 .header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
 .text-accent { color: $color-text-accent; } // used for date in post list and home link
 
@@ -166,6 +176,7 @@
 
 .left { float: left; }
 .right { float: right; }
+.center {float: center;}
 
 .clearfix:before,
 .clearfix:after {
