@@ -53,6 +53,8 @@
 
 .border-right-thick { border-right: 2px solid; border-color: currentColor; }
 .border-left-thick { border-left: 2px solid; border-color: currentColor; }
+.border-right-thin { border-right: 1px solid; border-color: currentColor; }
+.border-left-thin { border-left: 1px solid; border-color: currentColor; }
 
 .medium {
   text-align: center;
@@ -138,7 +140,7 @@
   position: relative;
   float: right;
   border: solid $black;
-  border-width: 0 10px 10px 0;
+  border-width: 0 1px 1px 0;
   display: inline-block;
   padding: 10px;
   bottom: 0vh;
