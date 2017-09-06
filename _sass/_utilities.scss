@@ -34,12 +34,13 @@
 .fixed-nav {
   visibility: hidden;
 
-  @media (min-width: $breakpoint-lg) {
+  @media (min-width: 1025px) {
     visibility: visible;
     position: fixed;
     display: block;
     left: 50%;
-    transform: translate(-50%, 0);  
+    transform: translate(-50%, 0);
+    text-align: center;
   }
 }
 
