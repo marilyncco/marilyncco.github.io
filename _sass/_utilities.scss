@@ -40,9 +40,8 @@
     position: fixed;
     display: block;
     left: 50%;
-    transform: translate(-50%, 0);
-    text-align: center;
-  }
+    transform: translate3d(-50%, 0, 0);
+    text-align: center;  }
 }
 
 /* Border utilities */
