@@ -47,11 +47,11 @@
 
     <div id="about" class="border-top-thick border-bottom-thick border-left-thick border-right-thick right about-background">
       <article class="about-text right container px-3 mx-auto mt-3 mb-4" itemscope itemtype="http://schema.org/BlogPosting">
-        <div style="text-align: right;" class="col-9 sm-width-full mb-3 border-bottom-thick">
+        <div style="text-align: right;" class="col-9 mr-1 sm-width-full mb-3 border-bottom-thick">
           <h1 class="about-title h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">About</h1>
         </div>
 
-        <div style="text-align: right;" class="sm-width-full prose col-10 mr-1" itemprop="articleBody">
+        <div style="text-align: right;" class="sm-width-full prose col-10 ml-3" itemprop="articleBody">
           <div class="h4 lh-condensed font-smoothing">
             {% capture my_include %}{% include about.md %}{% endcapture %}
             {{ my_include | markdownify }}
