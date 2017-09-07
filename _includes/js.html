@@ -8,7 +8,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
+<!-- <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -43,4 +43,28 @@ $(document).ready(function(){
         }
 	});
 });
+</script> -->
+
+<script>
+
+var timedelay = 1;
+
+function delayCheck() {
+    if(timedelay == 2) {
+        $('#nav').fadeOut();
+        timedelay = 1; }
+    timedelay = timedelay+1;
+}
+ 
+$(document).mousemove(function() {
+    $('#nav').css({'visibility': 'visible'});
+    $('#nav').fadeIn();
+    timedelay = 1;
+    clearInterval(_delay);
+    _delay = setInterval(delayCheck, 250);
+});
+
+// page loads starts delay timer
+_delay = setInterval(delayCheck, 250)
+ 
 </script>
