@@ -8,7 +8,8 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- <script>
+
+<script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -32,25 +33,15 @@ $(document).ready(function(){
       });
     } // End if
   });
-	$(window).scroll(function(){
-    	if($(this).scrollTop() > 1){
-    		if(window.screen.availWidth > 1024){
-                $('#nav').css({'visibility': 'visible'});
-    		}
-    	}
-        else {
-            $('#nav').css({'visibility': 'hidden'});
-        }
-	});
 });
-</script> -->
+</script>
 
 <script>
 
 var timedelay = 1;
 
 function delayCheck() {
-    if(timedelay == 2) {
+    if(timedelay == 10) {
         $('#nav').fadeOut();
         timedelay = 1; }
     timedelay = timedelay+1;
@@ -61,10 +52,10 @@ $(document).mousemove(function() {
     $('#nav').fadeIn();
     timedelay = 1;
     clearInterval(_delay);
-    _delay = setInterval(delayCheck, 250);
+    _delay = setInterval(delayCheck, 500);
 });
 
 // page loads starts delay timer
-_delay = setInterval(delayCheck, 250)
+_delay = setInterval(delayCheck, 500)
  
 </script>
